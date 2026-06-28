@@ -33,6 +33,8 @@ github.com/mattn/go-isatty v0.0.22 h1:j8l17JJ9i6VGPUFUYoTUKPSgKe/83EYU2zBC7YNKMw
 github.com/mattn/go-isatty v0.0.22/go.mod h1:ZXfXG4SQHsB/w3ZeOYbR0PrPwLy+n6xiMrJlRFqopa4=
 github.com/ogen-go/ogen v1.22.0 h1:7wU+jcIKg/JBAhM95909ULLdAkGr43KQOuvNpJ7Mxb4=
 github.com/ogen-go/ogen v1.22.0/go.mod h1:7BOh9a51QiPCC92RMrj1LlkLjejhBAyPhR+oMc6lR9g=
+github.com/plexusone/omnimemory v0.1.0 h1:Wv9i66aaVaKOXTUGmdcU++mLf1j98wKLpZcGrgAwXow=
+github.com/plexusone/omnimemory v0.1.0/go.mod h1:rKP37hULOs5WYe8V3MmLURYd5nJoZLkUEd8I0vExvdI=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/rogpeppe/go-internal v1.15.0 h1:D0RCU5rMAp+SpgkiNdrjfJ+LX4J1M32V2NeCY7EJ6hc=
