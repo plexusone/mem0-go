@@ -1,0 +1,51 @@
+{
+  "irVersion": "1.0",
+  "project": "mem0-go",
+  "repository": "https://github.com/plexusone/mem0-go",
+  "versioning": "semver",
+  "commitConvention": "conventional",
+  "maintainers": ["grokify", "johncwang@gmail.com"],
+  "releases": [
+    {
+      "version": "v0.1.0",
+      "date": "2026-06-28",
+      "highlights": [
+        { "description": "Go client SDK for mem0 with support for hosted (api.mem0.ai) deployments" },
+        { "description": "OmniMemory provider implementation for vendor-neutral memory abstraction" }
+      ],
+      "added": [
+        { "description": "OpenAPI spec for mem0 hosted API", "commit": "d700b7b" },
+        { "description": "Ogen code generation script for client generation", "commit": "89aafdb" },
+        { "description": "Ogen-generated client for hosted API", "commit": "ff8568e" },
+        { "description": "Core types for memory operations (Message, MemoryItem, SearchResult, etc.)", "commit": "2a68557" },
+        { "description": "Functional options for client and operations (WithAPIKey, WithUserID, etc.)", "commit": "7091fbd" },
+        { "description": "Configuration loading from environment variables (MEM0_API_KEY, MEM0_BASE_URL)", "commit": "f946430" },
+        { "description": "Error types and helpers (APIError, IsNotFoundError, etc.)", "commit": "f6d924b" },
+        { "description": "Memory interface definition with Add, Get, GetAll, Search, Update, Delete, History operations", "commit": "429c16c" },
+        { "description": "Client factory with authHTTPClient wrapper for API authentication", "commit": "94cbf03" },
+        { "description": "Hosted backend implementation wrapping ogen client", "commit": "ba68c0b" },
+        { "description": "OmniMemory provider implementation (`core.Provider` interface)", "commit": "297aa18" }
+      ],
+      "fixed": [
+        { "description": "Add nolint directives for gosec false positives (G704 SSRF, G101 credentials)", "commit": "56f14ff" }
+      ],
+      "tests": [
+        { "description": "Unit tests and examples for client, errors, types", "commit": "facd948" },
+        { "description": "OmniMemory provider tests with conformance testing", "commit": "561f419" }
+      ],
+      "documentation": [
+        { "description": "README with quickstart guide and usage examples", "commit": "5213b28" },
+        { "description": "README badges for pkg.go.dev, license, and CI status", "commit": "ebc3f18" }
+      ],
+      "build": [
+        { "description": "go.mod, go.sum, and gitignore", "commit": "9c38010" },
+        { "description": "Shared GitHub Actions workflows", "commit": "07f7f58" },
+        { "description": "MIT license file", "commit": "07dbf2e" }
+      ],
+      "dependencies": [
+        { "description": "Add omnimemory dependency for provider interface", "commit": "dfac9fe" },
+        { "description": "Update Go module dependencies", "commit": "aa43df9" }
+      ]
+    }
+  ]
+}
