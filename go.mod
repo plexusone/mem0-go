@@ -1,11 +1,12 @@
 module github.com/plexusone/mem0-go
 
-go 1.25.0
+go 1.26.0
 
 require (
 	github.com/go-faster/errors v0.7.1
 	github.com/go-faster/jx v1.2.0
 	github.com/ogen-go/ogen v1.22.0
+	github.com/plexusone/omnimemory v0.0.0
 	go.opentelemetry.io/otel v1.44.0
 	go.opentelemetry.io/otel/metric v1.44.0
 	go.opentelemetry.io/otel/trace v1.44.0
@@ -34,3 +35,5 @@ require (
 	golang.org/x/text v0.38.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
+
+replace github.com/plexusone/omnimemory => ../omnimemory
