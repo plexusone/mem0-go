@@ -10,6 +10,7 @@ const (
 	DefaultFOSSBaseURL = "http://localhost:8888"
 
 	// EnvAPIKey is the environment variable name for the API key.
+	//nolint:gosec // G101: Environment variable name, not a hardcoded credential
 	EnvAPIKey = "MEM0_API_KEY"
 
 	// EnvBaseURL is the environment variable name for the base URL.

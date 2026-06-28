@@ -96,5 +96,6 @@ func (c *authHTTPClient) Do(req *http.Request) (*http.Response, error) {
 	}
 	req.Header.Set("X-Mem0-SDK-Version", Version)
 	req.Header.Set("X-Mem0-SDK-Lang", "go")
+	//nolint:gosec // G704: Internal wrapper, URLs controlled by ogen-generated client
 	return c.client.Do(req)
 }
