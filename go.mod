@@ -3,7 +3,7 @@ module github.com/plexusone/mem0-go
 go 1.26.4
 
 require (
-	github.com/go-faster/errors v0.7.1
+	github.com/go-faster/errors v0.8.0
 	github.com/go-faster/jx v1.2.0
 	github.com/ogen-go/ogen v1.23.0
 	github.com/plexusone/omnimemory v0.1.0
